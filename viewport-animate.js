@@ -1,4 +1,5 @@
 // Viewport Checker Animate JS
+// v1.0.0 (2017-10-08)
 // jQuery Viewport Checker + Animate CSS
 // Begin jQuery Viewport Checker + Animate CSS
 
