@@ -2,7 +2,7 @@
 // v1.0.0 (2017-10-08)
 // jQuery Viewport Checker + Animate CSS
 // Begin jQuery Viewport Checker + Animate CSS
-
+jQuery(document).ready(function($) {
   // Define Animation Objects
   var animations = [
     {className: '.vpa-bounce', animationClass: 'bounce', hideFirst: false },
@@ -87,9 +87,9 @@
 
   // Define the Viewport Checker Animate Function
   function viewportAnimate(animations) {
-    console.log(animations.length);
+    //console.log(animations.length);
     $.each(animations, function(i, v) {
-      console.log(v.className+": "+i);
+      //console.log(v.className+": "+i);
       // Define Hider Class
       var hideChecker = v.hideFirst;
       var hidden;
@@ -105,3 +105,4 @@
 
   // Execute the Viewport Checker Animate Function
   viewportAnimate(animations);
+});
